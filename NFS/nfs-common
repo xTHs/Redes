@@ -1,0 +1,15 @@
+# /etc/nfs-common
+# Configuração do cliente NFS
+
+# Definições de usuário NFS
+NEED_STATD="yes"           
+STATDOPTS="--port 32765 --outgoing-port 32766"
+
+# Configuração de bloqueios NFS
+NEED_LOCKD="yes"
+LOCKD_TCPPORT=32803        
+LOCKD_UDPPORT=32769        
+
+# Opções de mount NFS
+MOUNTD_PORT=892           
+STATD_PORT=662             

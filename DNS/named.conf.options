@@ -1,0 +1,14 @@
+options {
+    directory "/var/cache/bind";
+
+    // Forward DNS queries to an external DNS server (e.g., Google DNS)
+    forwarders {
+        8.8.8.8;
+        8.8.4.4;
+    };
+
+    dnssec-validation auto;
+
+    listen-on { 10.0.2.15; };
+    allow-query { any; };
+};
