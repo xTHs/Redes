@@ -127,7 +127,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para 
 
 👨‍💻 Desenvolvido por:
 
-- [Dev 1 - Nome do Desenvolvedor](https://github.com/seu-usuario1)
-- [Dev 2 - Nome do Desenvolvedor](https://github.com/seu-usuario2)
+- Thiago Silva
+- Mário Alves
 
 
