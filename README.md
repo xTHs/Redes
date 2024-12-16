@@ -28,7 +28,7 @@ Após a instalação de ambos, você estará pronto para configurar e executar o
 
    Para obter uma cópia local dos scripts e arquivos de configuração necessários, clone o repositório usando o seguinte comando no terminal:
    ```bash
-   git clone https://github.com/........
+   git clone https://github.com/xTHs/Redes.git
 
 
 
