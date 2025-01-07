@@ -51,15 +51,14 @@ Após a instalação de ambos, você estará pronto para configurar e executar o
 
 ## 🛠️ Serviços Configurados
 
-Cada serviço de rede neste projeto foi cuidadosamente configurado para atender às necessidades específicas do curso de Administração de Redes de Computadores. Abaixo, você encontrará links para a documentação detalhada de cada serviço. Esses documentos fornecem informações completas sobre a funcionalidade de cada serviço, instruções para sua configuração e orientações para seu uso efetivo.
+Cada serviço de rede neste projeto foi cuidadosamente configurado para atender às necessidades específicas do curso de Administração de Redes de Computadores.
 
-- [**Serviço A**](link-para-documentacao-a) - Explore como configurar e utilizar o Serviço A.
-- [**Serviço B**](link-para-documentacao-b) - Acesse guias detalhados para a operação e manutenção do Serviço B.
-- [**Serviço C**](link-para-documentacao-c) - Informações sobre as especificações e configurações do Serviço C.
-- [**Serviço D**](link-para-documentacao-d) - Dicas e truques para maximizar a eficiência do Serviço D.
+- [**DHCP**]-Aloca automaticamente endereços IP e configurações de rede para dispositivos em uma rede.
+- [**DNS**]-Traduz nomes de domínio em endereços IP, facilitando o acesso a websites.
+- [**FTP**]-Permite a transferência de arquivos entre sistemas conectados através de uma rede.
+- [**HTTP**]-Protocolo usado para transmitir documentos e dados na World Wide Web.
+- [**NFS**]-Sistema de arquivos de rede que permite o acesso a arquivos sobre uma rede de computadores como se estivessem no disco local.
 
-Estes documentos são essenciais para entender como os serviços interagem e operam dentro da infraestrutura de rede configurada.
-.
 
 ---
 
