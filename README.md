@@ -112,10 +112,11 @@ Aqui estão alguns recursos essenciais que podem ajudar no desenvolvimento e ger
 
 - 📦 **Vagrant**: Explore a [Documentação Oficial do Vagrant](https://www.vagrantup.com/docs) para aprender mais sobre como configurar e utilizar este gerenciador de máquinas virtuais.
 - 🌐 **Apache HTTP Server**: Acesse a [Documentação Oficial do Apache](https://httpd.apache.org/docs/) para obter informações detalhadas sobre configuração, segurança e otimização do servidor web.
-- 🌍 **DNS**: Consulte a [Documentação do DNS](./config/DNS/README.md) para instruções sobre a configuração e utilização do serviço de resolução de nomes.
-- 💻 **NFS (Network File System)**: Acesse a [Documentação do NFS](./config/NFS/README.md) para aprender a configurar e usar sistemas de arquivos compartilhados em rede.
-- 📁 **FTP (File Transfer Protocol)**: Confira a [Documentação do FTP](./config/FTP/README.md) para orientações sobre transferência de arquivos entre sistemas.
-- 🌐 **DHCP (Dynamic Host Configuration Protocol)**: Consulte a [Documentação do DHCP](./config/DHCP/README.md) para aprender a configurar a distribuição dinâmica de endereços IP na rede.
+- 🌍 **DNS**: Consulte a [Documentação Oficial do DNS na ISC](https://www.isc.org/bind/) para instruções sobre a configuração e utilização do serviço de resolução de nomes.
+- 💻 **NFS (Network File System)**: Acesse a [Documentação Oficial do NFS no site da Red Hat](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-nfs) para aprender a configurar e usar sistemas de arquivos compartilhados em rede.
+- 📁 **FTP (File Transfer Protocol)**: Confira a [Documentação Oficial do FTP na Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) para orientações sobre transferência de arquivos entre sistemas.
+- 🌐 **DHCP (Dynamic Host Configuration Protocol)**: Consulte a [Documentação Oficial do DHCP no site da Microsoft](https://docs.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-top) para aprender a configurar a distribuição dinâmica de endereços IP na rede.
+
 
 ---
 
