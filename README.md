@@ -66,16 +66,12 @@ Cada serviço de rede neste projeto foi cuidadosamente configurado para atender 
 
 O **DHCP** desempenha um papel crucial na administração de redes ao automatizar a distribuição de endereços IP e outras configurações de rede essenciais. Esse protocolo elimina a necessidade de configuração manual de cada dispositivo conectado à rede, agilizando a conexão de novos dispositivos e garantindo a gestão eficiente do espaço de endereçamento IP.
 
-[**Documentação Completa**](https://docs.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-top) - Acesse aqui para detalhes sobre a configuração e utilização do DHCP na sua infraestrutura de rede.
-
 
 ---
 
 ### 🌍 **DNS** (Domain Name System)
 
 O **DNS** é fundamental para a funcionalidade da internet, atuando como o tradutor entre os endereços de nomes de domínio que os humanos usam (como `www.example.com`) e os endereços IP que os computadores utilizam para se comunicar. Este serviço garante que os usuários possam acessar websites de forma rápida e intuitiva, simplificando a navegação na web ao eliminar a necessidade de memorizar sequências numéricas complexas.
-
-[**Documentação Completa**](https://www.icann.org/resources/pages/dns-2012-02-25-en) - Explore a documentação para entender como configurar e manter o DNS dentro de sua rede.
 
 
 ---
@@ -84,8 +80,6 @@ O **DNS** é fundamental para a funcionalidade da internet, atuando como o tradu
 
 O **FTP** é um protocolo essencial para transferir arquivos entre sistemas conectados à internet. Ele facilita tanto o upload quanto o download de arquivos em servidores remotos, oferecendo uma solução eficaz para a gestão de dados digitais em grande escala. Esse protocolo é amplamente utilizado por administradores de sistemas, desenvolvedores e usuários que necessitam de uma transferência de arquivos confiável e organizada.
 
-[**Documentação Completa**](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) - Acesse aqui para obter orientações detalhadas sobre a configuração e utilização do FTP em sua infraestrutura de rede.
-
 
 ---
 
@@ -93,15 +87,12 @@ O **FTP** é um protocolo essencial para transferir arquivos entre sistemas cone
 
 O **Apache HTTP Server** é um servidor web robusto e amplamente utilizado, conhecido por sua versatilidade e força em hospedar websites e aplicações web. Ele suporta uma variedade de módulos que expandem suas funcionalidades, incluindo processamento de PHP, proxy reverso, e muito mais. O Apache é ideal para ambientes que exigem configuração customizada e é uma escolha popular em muitas empresas de grande porte devido à sua comprovada estabilidade e escalabilidade.
 
-[**Documentação Completa**](https://httpd.apache.org/docs/) - Acesse aqui para informações detalhadas sobre como configurar e operar o Apache HTTP Server em sua infraestrutura.
 
 ---
 
 ### 💻 **NFS** (Network File System)
 
 O **NFS** é um protocolo destinado ao compartilhamento remoto de sistemas de arquivos entre computadores em uma rede. Com o NFS, arquivos armazenados em um servidor podem ser acessados por máquinas clientes como se estivessem localizados em seus próprios discos locais. Este protocolo é essencial para ambientes que necessitam de acesso fácil e rápido a dados centralizados, facilitando a colaboração e a eficiência operacional.
-
-[**Documentação Completa**](https://access.redhat.com/documentation/enus/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-nfs) - Consulte este link para detalhes sobre como implementar e configurar o NFS, maximizando sua utilidade e segurança.
 
 
 ---
