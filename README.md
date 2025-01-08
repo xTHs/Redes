@@ -49,7 +49,7 @@ Após a instalação de ambos, você estará pronto para configurar e executar o
    ```bash
    vagrant ssh server1
    
-**Acesso SSH ao Servidor `server1`**
+6. **🌐Acesso SSH ao Servidor `server1`**
 
 Após estabelecer a conexão SSH com o servidor `server1` utilizando o comando `vagrant ssh server1`, você terá acesso total ao ambiente de linha de comando do servidor. Isso permite executar uma variedade de tarefas administrativas, tais como:
 
@@ -68,13 +68,26 @@ Utilizar a conexão SSH é fundamental para administrar eficientemente a máquin
 
 ## 🛠️ Serviços Configurados
 
-Cada serviço de rede neste projeto foi cuidadosamente configurado para atender às necessidades específicas do curso de Administração de Redes de Computadores.
+Confira os serviços configurados e aprenda a verificar cada um deles utilizando os comandos apropriados.
 
 - [**DHCP**]-Aloca automaticamente endereços IP e configurações de rede para dispositivos em uma rede.
+  ```bash
+  sudo systemctl status isc-dhcp-server
 - [**DNS**]-Traduz nomes de domínio em endereços IP, facilitando o acesso a websites.
+  ```bash
+  sudo systemctl status bind9
+
 - [**FTP**]-Permite a transferência de arquivos entre sistemas conectados através de uma rede.
+  ```bash
+  sudo systemctl status vsftpd
+
 - [**HTTP**]-Protocolo usado para transmitir documentos e dados na World Wide Web.
+  ```bash
+  sudo systemctl status apache2
+
 - [**NFS**]-Sistema de arquivos de rede que permite o acesso a arquivos sobre uma rede de computadores como se estivessem no disco local.
+  ```bash
+  sudo systemctl status nfs-kernel-server
 
 
 ---
