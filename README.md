@@ -48,9 +48,23 @@ Após a instalação de ambos, você estará pronto para configurar e executar o
    
    ```bash
    vagrant ssh server1
+   
+**Acesso SSH ao Servidor `server1`**
+
+Após estabelecer a conexão SSH com o servidor `server1` utilizando o comando `vagrant ssh server1`, você terá acesso total ao ambiente de linha de comando do servidor. Isso permite executar uma variedade de tarefas administrativas, tais como:
+
+- **Instalar software adicional**: Para expandir as funcionalidades do servidor ou atender requisitos específicos de sua aplicação.
+- **Modificar configurações de sistema**: Ajustar configurações para otimizar o desempenho ou adaptar o ambiente às suas necessidades.
+- **Verificar o status de serviços**: Monitorar e gerenciar os serviços em execução na máquina para garantir que tudo está funcionando como esperado.
+
+Utilizar a conexão SSH é fundamental para administrar eficientemente a máquina virtual, permitindo-lhe maximizar o uso das funcionalidades disponibilizadas pelo Vagrant e pela configuração específica do seu servidor.
+
+
+<p align="center">
+  <img src="IMG/IMG1.jpeg" alt="Descrição da Imagem 1" width="300"/>
+</p>
 
 ---
-
 
 ## 🛠️ Serviços Configurados
 
