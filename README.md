@@ -43,11 +43,14 @@ Após a instalação de ambos, você estará pronto para configurar e executar o
 
    Após iniciar as máquinas virtuais com `vagrant up`, o Vagrant automaticamente executará o [arquivo de provisão](./provision.sh), que contém os scripts necessários para configurar cada serviço de rede. Este processo pode levar alguns minutos, dependendo da configuração e do número de serviços a serem instalados.
 
-   ✅ Quando todas as configurações forem concluídas, você poderá acessar a máquina virtual diretamente através do terminal. Utilize o comando abaixo para estabelecer uma conexão SSH com a máquina virtual:
+   ✅ Quando todas as configurações estiverem concluídas, você poderá acessar a máquina virtual diretamente através do terminal. Para se conectar via SSH à máquina chamada `server1`, utilize o comando abaixo. Este comando estabelece uma conexão direta com o servidor `server1`, que foi o nome escolhido para esta instância no projeto Vagrant. Lembre-se de que o nome do servidor é configurável e pode ser alterado conforme suas preferências no `Vagrantfile`.
+   
+   
    ```bash
-   vagrant ssh
+   vagrant ssh server1
 
 ---
+
 
 ## 🛠️ Serviços Configurados
 
