@@ -43,31 +43,31 @@ Após a instalação de ambos, você estará pronto para configurar e executar o
 
    Após iniciar as máquinas virtuais com `vagrant up`, o Vagrant automaticamente executará o [arquivo de provisão](./provision.sh), que contém os scripts necessários para configurar cada serviço de rede. Este processo pode levar alguns minutos, dependendo da configuração e do número de serviços a serem instalados.
 
-   ✅ Quando todas as configurações forem concluídas, você poderá acessar a máquina virtual diretamente através do terminal. Utilize o comando abaixo para estabelecer uma conexão SSH com a máquina virtual:
+   ✅ Quando todas as configurações estiverem concluídas, você poderá acessar a máquina virtual diretamente através do terminal. Para se conectar via SSH à máquina chamada `server1`, utilize o comando abaixo. Este comando estabelece uma conexão direta com o servidor `server1`, que foi o nome escolhido para esta instância no projeto Vagrant. Lembre-se de que o nome do servidor é configurável e pode ser alterado conforme suas preferências no `Vagrantfile`.
+   
+   
    ```bash
-   vagrant ssh
+   vagrant ssh server1
 
 ---
 
+
 ## 🛠️ Serviços Configurados
 
-Cada serviço de rede neste projeto foi cuidadosamente configurado para atender às necessidades específicas do curso de Administração de Redes de Computadores. Abaixo, você encontrará links para a documentação detalhada de cada serviço. Esses documentos fornecem informações completas sobre a funcionalidade de cada serviço, instruções para sua configuração e orientações para seu uso efetivo.
+Cada serviço de rede neste projeto foi cuidadosamente configurado para atender às necessidades específicas do curso de Administração de Redes de Computadores.
 
-- [**Serviço A**](link-para-documentacao-a) - Explore como configurar e utilizar o Serviço A.
-- [**Serviço B**](link-para-documentacao-b) - Acesse guias detalhados para a operação e manutenção do Serviço B.
-- [**Serviço C**](link-para-documentacao-c) - Informações sobre as especificações e configurações do Serviço C.
-- [**Serviço D**](link-para-documentacao-d) - Dicas e truques para maximizar a eficiência do Serviço D.
+- [**DHCP**]-Aloca automaticamente endereços IP e configurações de rede para dispositivos em uma rede.
+- [**DNS**]-Traduz nomes de domínio em endereços IP, facilitando o acesso a websites.
+- [**FTP**]-Permite a transferência de arquivos entre sistemas conectados através de uma rede.
+- [**HTTP**]-Protocolo usado para transmitir documentos e dados na World Wide Web.
+- [**NFS**]-Sistema de arquivos de rede que permite o acesso a arquivos sobre uma rede de computadores como se estivessem no disco local.
 
-Estes documentos são essenciais para entender como os serviços interagem e operam dentro da infraestrutura de rede configurada.
-.
 
 ---
 
 ### 🌐 **DHCP** (Dynamic Host Configuration Protocol)
 
 O **DHCP** desempenha um papel crucial na administração de redes ao automatizar a distribuição de endereços IP e outras configurações de rede essenciais. Esse protocolo elimina a necessidade de configuração manual de cada dispositivo conectado à rede, agilizando a conexão de novos dispositivos e garantindo a gestão eficiente do espaço de endereçamento IP.
-
-- [**Documentação Completa**](./config/DHCP/README.md) - Acesse aqui para detalhes sobre a configuração e utilização do DHCP na sua infraestrutura de rede.
 
 
 ---
@@ -76,15 +76,12 @@ O **DHCP** desempenha um papel crucial na administração de redes ao automatiza
 
 O **DNS** é fundamental para a funcionalidade da internet, atuando como o tradutor entre os endereços de nomes de domínio que os humanos usam (como `www.example.com`) e os endereços IP que os computadores utilizam para se comunicar. Este serviço garante que os usuários possam acessar websites de forma rápida e intuitiva, simplificando a navegação na web ao eliminar a necessidade de memorizar sequências numéricas complexas.
 
-- [**Documentação Completa**](./config/DNS/README.md) - Explore a documentação para entender como configurar e manter o DNS dentro de sua rede.
 
 ---
 
 ### 📁 **FTP** (File Transfer Protocol)
 
 O **FTP** é um protocolo essencial para transferir arquivos entre sistemas conectados à internet. Ele facilita tanto o upload quanto o download de arquivos em servidores remotos, oferecendo uma solução eficaz para a gestão de dados digitais em grande escala. Esse protocolo é amplamente utilizado por administradores de sistemas, desenvolvedores e usuários que necessitam de uma transferência de arquivos confiável e organizada.
-
-- [**Documentação Completa**](./config/FTP/README.md) - Acesse aqui para obter orientações detalhadas sobre a configuração e utilização do FTP em sua infraestrutura de rede.
 
 
 ---
@@ -93,15 +90,12 @@ O **FTP** é um protocolo essencial para transferir arquivos entre sistemas cone
 
 O **Apache HTTP Server** é um servidor web robusto e amplamente utilizado, conhecido por sua versatilidade e força em hospedar websites e aplicações web. Ele suporta uma variedade de módulos que expandem suas funcionalidades, incluindo processamento de PHP, proxy reverso, e muito mais. O Apache é ideal para ambientes que exigem configuração customizada e é uma escolha popular em muitas empresas de grande porte devido à sua comprovada estabilidade e escalabilidade.
 
-- [**Documentação Completa**](./config/Apache/README.md) - Acesse aqui para informações detalhadas sobre como configurar e operar o Apache HTTP Server em sua infraestrutura.
 
 ---
 
 ### 💻 **NFS** (Network File System)
 
 O **NFS** é um protocolo destinado ao compartilhamento remoto de sistemas de arquivos entre computadores em uma rede. Com o NFS, arquivos armazenados em um servidor podem ser acessados por máquinas clientes como se estivessem localizados em seus próprios discos locais. Este protocolo é essencial para ambientes que necessitam de acesso fácil e rápido a dados centralizados, facilitando a colaboração e a eficiência operacional.
-
-- [**Documentação Completa**](./config/NFS/README.md) - Consulte este link para detalhes sobre como implementar e configurar o NFS, maximizando sua utilidade e segurança.
 
 
 ---
@@ -112,10 +106,11 @@ Aqui estão alguns recursos essenciais que podem ajudar no desenvolvimento e ger
 
 - 📦 **Vagrant**: Explore a [Documentação Oficial do Vagrant](https://www.vagrantup.com/docs) para aprender mais sobre como configurar e utilizar este gerenciador de máquinas virtuais.
 - 🌐 **Apache HTTP Server**: Acesse a [Documentação Oficial do Apache](https://httpd.apache.org/docs/) para obter informações detalhadas sobre configuração, segurança e otimização do servidor web.
-- 🌍 **DNS**: Consulte a [Documentação do DNS](./config/DNS/README.md) para instruções sobre a configuração e utilização do serviço de resolução de nomes.
-- 💻 **NFS (Network File System)**: Acesse a [Documentação do NFS](./config/NFS/README.md) para aprender a configurar e usar sistemas de arquivos compartilhados em rede.
-- 📁 **FTP (File Transfer Protocol)**: Confira a [Documentação do FTP](./config/FTP/README.md) para orientações sobre transferência de arquivos entre sistemas.
-- 🌐 **DHCP (Dynamic Host Configuration Protocol)**: Consulte a [Documentação do DHCP](./config/DHCP/README.md) para aprender a configurar a distribuição dinâmica de endereços IP na rede.
+- 🌍 **DNS**: Consulte a [Documentação Oficial do DNS na ISC](https://www.isc.org/bind/) para instruções sobre a configuração e utilização do serviço de resolução de nomes.
+- 💻 **NFS (Network File System)**: Acesse a [Documentação Oficial do NFS no site da Red Hat](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-nfs) para aprender a configurar e usar sistemas de arquivos compartilhados em rede.
+- 📁 **FTP (File Transfer Protocol)**: Confira a [Documentação Oficial do FTP na Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) para orientações sobre transferência de arquivos entre sistemas.
+- 🌐 **DHCP (Dynamic Host Configuration Protocol)**: Consulte a [Documentação Oficial do DHCP no site da Microsoft](https://docs.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-top) para aprender a configurar a distribuição dinâmica de endereços IP na rede.
+
 
 ---
 
